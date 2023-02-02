@@ -46,7 +46,6 @@ export default function UpdateRowsApiRef() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ height: 400, mt: 1 }}>
         <DataGridPro
-            experimentalFeatures={{ newEditingApi: true }}
             rows={users}
             apiRef={apiRef} 
             columns={columns}
